@@ -33,4 +33,7 @@ Please, find below the results of the Election-Audit Results, containing screen 
 
 
 ## Election-Audit Summary
-In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+The purpose of this script is to take an external file containing all votes (transactional data) and output the election results for audit.
+With some modifications, it would be possible to use the script for any election.
+We can define a new field called "electionId", which would be the Id of that particular election, and use it to calculate several election results with the same script. e.g. electionId: "presidential2022" for presidential election; "congress2022" for congressional election; etc.
+We could also include a date field to get participation metrics, like most popular voting day, distribution analysis by day, etc.
